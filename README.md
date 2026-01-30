@@ -13,11 +13,6 @@
 
 
 
-<div align="center">
-
-**Making advanced AI accessible to everyone, everywhere.**
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=flat&logo=rust&logoColor=white)](https://www.rust-lang.org/)
 [![Status](https://img.shields.io/badge/status-alpha-orange.svg)](https://github.com/yourusername/xNet)
 
