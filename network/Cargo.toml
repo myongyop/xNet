@@ -1,0 +1,15 @@
+[package]
+name = "xnet-network"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.100"
+async-trait = "0.1.89"
+libp2p = { version = "0.56.0", features = ["tcp", "tls", "dns", "noise", "yamux", "gossipsub", "mdns", "macros", "tokio", "quic", "kad"] }
+serde = { version = "1.0.228", features = ["derive"] }
+serde_json = "1.0.149"
+tokio = { version = "1.49.0", features = ["full"] }
+xnet-core = { version = "0.1.0", path = "../core" }
+xnet-runtime = { version = "0.1.0", path = "../runtime" }
+zerocopy = { version = "0.8.36", default-features = false }

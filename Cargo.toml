@@ -1,0 +1,9 @@
+[workspace]
+members = [
+    "core",
+    "network",
+    "runtime",
+    "protocol",
+    "desktop/src-tauri", "cli",
+]
+resolver = "2"

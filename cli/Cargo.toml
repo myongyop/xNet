@@ -1,0 +1,12 @@
+[package]
+name = "cli"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.100"
+dotenv = "0.15.0"
+tokio = { version = "1.49.0", features = ["full"] }
+xnet-core = { version = "0.1.0", path = "../core" }
+xnet-network = { version = "0.1.0", path = "../network" }
+xnet-runtime = { version = "0.1.0", path = "../runtime" }
